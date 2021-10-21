@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Voorspeller</title>
+    <link rel="stylesheet" href="https://use.typekit.net/qvb2dfg.css">
+</head>
+<body>
+        <header class="header">
+            <h1 class="header-title">The One For You </h1>
+        </header>
+        
+        
+        <main class="container">
+            <section class="container-section">
+                <h2 class="section-title">WIE ZIJN WIJ?</h2>    
+                <div class="article">
+                    <p class="article__info center">Wij zoeken een partner voor jou! Deze partner is niet zomaar een partner, deze is gegarendeerd je soulmate. Geloof je het niet? Kijk maar naar onze succesverhalen.</p>
+                </div> 
+
+                <article class="article">
+                    <h3 class="article__title center">De succes verhalen</h3>
+                    <p class="article__info center">Hier, enkele koppels die door ons gevormd zijn.</p>
+                    <ul class="article__couples">
+                        <li>
+                            <ul class="article__couple first">
+                                <li><img src="assests/brad-en-jennefer.png" alt="Brad en Angelina" width="230" height="230"> </li>
+                                <li>Brad en Angelina</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="article__couple">
+                                <li><img src="assests/ryan-and-blake.png" alt="Ryan en Blake" width="230" height="230"> </li>
+                                <li>Ryan en Blake</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="article__couple">
+                                <li><img src="assests/harry-meghan.png" alt="Harry en Kate" width="230" height="230"> </li>
+                                <li>Harry en Meghan</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="article__couple">
+                                <li><img src="assests/beyonce-jay-z.png" alt="Beyonce and Jay-Z" width="230" height="230"></li>
+                                <li>Beyonce en Jay-Z</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="article__couple last">
+                                <li><img src="assests/kim-and-kanye.png" alt="Kanye en Kim" width="230" height="230"> </li>
+                                <li>Kanye en Kim</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+        
+            <section class="container-section">
+                <h2 class="section-title">Je voorspellingen</h2>
+                <article class="article">
+                    <h3 class="hidden">from invullen</h3>
+                <p class="article__info center">Met een paar inputs weet jij zo meteen, hoe ze eruit ziet en waar je haar zal ontmoeten!</p>
+                <form method="get" action="index.html" class="form-register center">
+                    <fieldset class="border">
+                        <div class="form__general--text center">
+                            <label class="form__general--text-field">
+                                Je favoriet woord <br>
+                                <input type="text"  name="text" id="text" size="20" required class="text-field">
+                            </label>
+                        </div>
+                        
+                        <h4 class="form__general--title center">Kies 1 van deze kleuren</h4>
+                        <div class="form__general--radio">
+                            <div class=".form__general--radio-button">
+                                <input type="radio" name="check" id="check1" class="opacity radio">
+                                <label for="check1" class="check">Blauw</label>
+                            </div>
+
+                            <div class=".form__general--radio-button">
+                                <input type="radio" name="check" required id="check2" class="opacity radio">
+                                <label for="check2" class="check">Groen</label>
+                            </div>
+                            
+                            <div class=".form__general--radio-button">
+                                <input type="radio" name="check" id="check3" class="opacity radio">
+                                <label for="check3" class="check">Rood</label>
+                            </div>
+                        
+                            <div class=".form__general--radio-button">
+                                <input type="radio" name="check" id="check4" class="opacity radio">
+                                <label for="check4" class="check">Geel</label>
+                            </div>
+                        </div>
+
+                        <h4 class="form__general--title center">Je bedtijd</h4>
+                        <div class="form__general--radio">
+                                <div class=".form__general--radio-button">
+                                    <input type="radio" name="check2" id="check5" class="opacity radio">
+                                    <label for="check5" class="check">20u</label>
+                                </div>
+                                
+                                <div class=".form__general--radio-button">
+                                    <input type="radio" name="check2" required id="check6" class="opacity radio">
+                                    <label for="check6" class="check">22u</label>
+                                </div>
+                                
+                                <div class=".form__general--radio-button">
+                                    <input type="radio" name="check2" id="check7" class="opacity radio">
+                                    <label for="check7" class="check">24u</label>
+                                </div>
+                                
+                                <div class=".form__general--radio-button">
+                                    <input type="radio" name="check2" id="check8" class="opacity radio">
+                                    <label for="check8" class="check">1u</label>
+                                </div>
+                        </div>
+
+                        <h4 class="form__general--title center">De hoeveelheid drankjes dat je drinkt in het weekend</h4>
+                        <div class="form__general--radio">
+                            <div class=".form__general--radio-button">
+                                <input type="radio" name="check3" id="check9" class="opacity radio">
+                                <label for="check9" class="check">18</label>
+                            </div>
+                        
+                            <div class=".form__general--radio-button">
+                                <input type="radio" name="check3" required id="check10" class="opacity radio">
+                                <label for="check10" class="check">1</label>
+                            </div>
+                        
+                            <div class=".form__general--radio-button">
+                                <input type="radio" name="check3" id="check11" class="opacity radio">
+                                <label for="check11" class="check">100</label>
+                            </div>
+                        
+                            <div class=".form__general--radio-button">
+                                <input type="radio" name="check3" id="check12" class="opacity radio">
+                                <label for="check12" class="check">120</label>
+                            </div>
+                        </div>
+
+                        <div class="form__general--text  center center-flex">
+                            <article class="form__general--cordi">
+                            <h4 class="form__general--title margin-none">Jouw locatie</h4><br>
+                            <p class="cordi__output latitude"></p>
+                            <p class="cordi__output longitude"></p>
+                            </article>
+                        </div>
+                        <div class="form__general flex-column symbol">
+                            <label class="form__general--button">
+                                <input type="submit" value="Vertel mijn toekomst" name="button" id="button" class="button">
+                            </label>
+                        </div>
+                    </fieldset>
+                    </form>
+                </article>
+                </section>
+
+            <section class="container-section">
+                <h2 class="section-title">Je partner</h2>
+                <div class="article flex-column reveal">
+                    <img class="article-img woman" src="assests/woman.png" alt="woman" width="600" height="400">
+                    <div class="article-img__background-color"></div>
+                </div>
+
+                <div class="article">
+                    <ul>
+                        <li class="map__holder"></li>
+                        <li class="gangster__name article__info center"></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        
+        
+        <footer class="footer">
+            <h2 class="footer-title">Contact</h2>
+            <p class="footer-info">
+                <address> DJVJL <br>
+                    lovestraat 4 <br>
+                    6770 Parijs <br>
+                    02/4454.32.11 <a href="DJVJL@bvba.info">DJVJL@bvba.info</a></address>
+        </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+      <article class="article oprichter">
+                    <h3 class="article__title">Onze oprichter</h3>
+                    <p class="article__info uppercase">Romedio Ruliefde</p>
+                    <img class="article__img" src="assests/foto-oprichter.png" alt="foto oprichter" width="233" height="228" >
+                    <p class="article__info">Onze geliefde oprichter, hij starte dit bedrijf toen hij nog maar 18 jaar was en het
+                        werd meteen een succes. Hij is ook de man achter de geniale voorspeller. Hij is begonnen met de
+                        voorspeller toen hij nog maar 10 jaar was en werkt er tot de dag van vandaag aan.</p>
+                    <p class="article__info">DJVJL is zijn levenswerk en hij zal er alles aandoen om de klant de beste ervaring
+                        te geven die er is. </p>
+                </article>
